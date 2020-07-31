@@ -16,6 +16,7 @@ if exists("gui_running") || &t_Co == 256
     hi Identifier   cterm=none ctermfg=none ctermbg=none gui=none guifg=#ffffff guibg=#181818
     hi Statement    cterm=bold ctermfg=none ctermbg=none gui=bold guifg=#ffdd33 guibg=#181818
     hi String       cterm=NONE ctermfg=none ctermbg=none gui=NONE guifg=#73c936 guibg=#181818
+    hi Special      cterm=NONE ctermfg=none ctermbg=none gui=NONE guifg=#73c936 guibg=#181818
     hi Function     cterm=NONE ctermfg=none ctermbg=none gui=NONE guifg=#96a6c8 guibg=#181818
     hi Typedef      cterm=NONE ctermfg=none ctermbg=none gui=NONE guifg=#ffdd33 guibg=#181818
     hi Number       cterm=NONE ctermfg=none ctermbg=none gui=NONE guifg=#9e95c7 guibg=#181818
@@ -24,6 +25,7 @@ if exists("gui_running") || &t_Co == 256
     hi Visual       cterm=NONE ctermfg=none ctermbg=none gui=NONE guifg=NONE guibg=#282828
     hi Structure    cterm=bold ctermfg=none ctermbg=none gui=bold guifg=#ffdd33 guibg=#181818
     hi Define       cterm=none ctermfg=none ctermbg=none gui=none guifg=#95a99f guibg=#181818
+    hi PreCondit    cterm=none ctermfg=none ctermbg=none gui=none guifg=#95a99f guibg=#181818
     hi PreProc      cterm=none ctermfg=none ctermbg=none gui=none guifg=#95a99f guibg=#181818
     hi Include      cterm=none ctermfg=none ctermbg=none gui=none guifg=#95a99f guibg=#181818
     hi Boolean      cterm=NONE ctermfg=none ctermbg=none gui=NONE guifg=#95a99f guibg=#181818
@@ -39,7 +41,7 @@ if exists("gui_running") || &t_Co == 256
     hi Error        cterm=NONE ctermfg=none ctermbg=none gui=NONE guifg=#f43841 guibg=#181818
     hi WarningMsg   cterm=NONE ctermfg=none ctermbg=none gui=NONE guifg=#f43841 guibg=#181818
     hi ErrorMsg     cterm=NONE ctermfg=none ctermbg=none gui=NONE guifg=#f43841 guibg=#181818
-    hi Cursor       cterm=NONE ctermfg=none ctermbg=none gui=NONE guifg=#000000 guibg=#ffdd33
     hi DiffDelete   cterm=NONE ctermfg=none ctermbg=none gui=NONE guifg=#f43841 guibg=#181818
     hi DiffAdd      cterm=NONE ctermfg=none ctermbg=none gui=NONE guifg=#73c936 guibg=#181818
+    hi StorageClass cterm=bold ctermfg=none ctermbg=none gui=bold guifg=#ffdd33 guibg=#181818
 endif
