@@ -45,4 +45,8 @@ if exists("gui_running") || &t_Co == 256
     hi DiffDelete   cterm=NONE ctermfg=none ctermbg=none gui=NONE guifg=#f43841 guibg=#181818
     hi DiffAdd      cterm=NONE ctermfg=none ctermbg=none gui=NONE guifg=#73c936 guibg=#181818
     hi StorageClass cterm=bold ctermfg=none ctermbg=none gui=bold guifg=#ffdd33 guibg=#181818
+    hi Pmenu        cterm=bold ctermfg=none ctermbg=none gui=none guifg=#e4e4ef guibg=#282828
+    hi PmenuSel     cterm=bold ctermfg=none ctermbg=none gui=none guifg=#e4e4ef guibg=#101010
+    hi PmenuSbar    cterm=bold ctermfg=none ctermbg=none gui=none guifg=#101010 guibg=#453d41
+    hi PmenuThumb   cterm=bold ctermfg=none ctermbg=none gui=none guifg=#453d41 guibg=#453d41
 endif
