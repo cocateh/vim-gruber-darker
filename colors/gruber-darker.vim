@@ -17,6 +17,7 @@ if exists("gui_running") || &t_Co == 256
     hi Statement    cterm=bold ctermfg=none ctermbg=none gui=bold guifg=#ffdd33 guibg=#181818
     hi String       cterm=NONE ctermfg=none ctermbg=none gui=NONE guifg=#73c936 guibg=#181818
     hi Special      cterm=NONE ctermfg=none ctermbg=none gui=NONE guifg=#73c936 guibg=#181818
+    hi SpecialChar  cterm=none ctermfg=none ctermbg=none gui=none guifg=#95a99f guibg=#181818
     hi Function     cterm=NONE ctermfg=none ctermbg=none gui=NONE guifg=#96a6c8 guibg=#181818
     hi Typedef      cterm=NONE ctermfg=none ctermbg=none gui=NONE guifg=#ffdd33 guibg=#181818
     hi Number       cterm=NONE ctermfg=none ctermbg=none gui=NONE guifg=#9e95c7 guibg=#181818
