@@ -1,7 +1,5 @@
 *#
 
-Makefile
-
 *.el
 
 .DS_Store

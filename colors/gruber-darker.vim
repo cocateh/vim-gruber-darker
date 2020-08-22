@@ -23,7 +23,7 @@ if exists("gui_running") || &t_Co == 256
     hi Number       cterm=NONE ctermfg=none ctermbg=none gui=NONE guifg=#9e95c7 guibg=#181818
     hi Comment      cterm=NONE ctermfg=none ctermbg=none gui=NONE guifg=#cc8c3c guibg=#181818
     hi Search       cterm=NONE ctermfg=none ctermbg=none gui=NONE guifg=#000000 guibg=#f5f5f5
-    hi Visual       cterm=NONE ctermfg=none ctermbg=none gui=NONE guifg=NONE guibg=#282828
+    hi Visual       cterm=NONE ctermfg=none ctermbg=none gui=NONE guifg=NONE    guibg=#484848
     hi Structure    cterm=bold ctermfg=none ctermbg=none gui=bold guifg=#ffdd33 guibg=#181818
     hi Define       cterm=none ctermfg=none ctermbg=none gui=none guifg=#95a99f guibg=#181818
     hi PreCondit    cterm=none ctermfg=none ctermbg=none gui=none guifg=#95a99f guibg=#181818
