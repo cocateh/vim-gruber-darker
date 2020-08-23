@@ -8,6 +8,7 @@ included some of my personal preferences like marking specialchars with a differ
   
 # todo  
  - [ ] make it work in gui
+ - [ ] change color of sidebar when error detected
 
 # screenshots
 
