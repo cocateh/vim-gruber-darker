@@ -10,7 +10,7 @@ let g:colors_name="gruber-darker"
 
 " colors
 if exists("gui_running") || &t_Co == 256
-    hi NonText      cterm=NONE ctermfg=none ctermbg=none gui=NONE guifg=#181818 guibg=none
+    hi NonText      cterm=NONE ctermfg=none ctermbg=none gui=NONE guifg=#484848 guibg=none
     hi Normal       cterm=NONE ctermfg=none ctermbg=none gui=NONE guifg=#e4e4ef guibg=#181818
     hi Keyword      cterm=bold ctermfg=none ctermbg=none gui=bold guifg=#ffdd33 guibg=none
     hi Identifier   cterm=none ctermfg=none ctermbg=none gui=none guifg=#ffffff guibg=none
@@ -50,6 +50,6 @@ if exists("gui_running") || &t_Co == 256
     hi PmenuSbar    cterm=bold ctermfg=none ctermbg=none gui=none guifg=#101010 guibg=#453d41
     hi PmenuThumb   cterm=bold ctermfg=none ctermbg=none gui=none guifg=#453d41 guibg=#453d41
     hi cTodo        cterm=none ctermfg=none ctermbg=none gui=bold guifg=#ffdd33 guibg=none
-    hi ColorColumn  cterm=none ctermfg=none ctermbg=none gui=none guifg=none    guibg=#484848
-    hi CursorLine   cterm=none ctermfg=none ctermbg=none gui=none guifg=none    guibg=#484848
+    hi ColorColumn  cterm=none ctermfg=none ctermbg=none gui=none guifg=none    guibg=#282828
+    hi CursorLine   cterm=none ctermfg=none ctermbg=none gui=none guifg=none    guibg=#282828
 endif
