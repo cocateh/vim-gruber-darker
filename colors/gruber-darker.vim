@@ -54,6 +54,11 @@ if exists("gui_running") || &t_Co == 256
     hi CursorLine   cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE    guibg=#282828
     hi Cursor       cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=#ffdd33 guibg=#ffdd33
     hi SignColumn   cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=#282828 guibg=#181818
+    hi VertSplit    cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=#52494e guibg=#181818
+    hi TabLine      cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=#e4e4ef guibg=#101010
+    hi TabLineFill  cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE    guibg=#101010
+    hi TabLineSel   cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=#ffdd33 guibg=#181818
+    hi cTodo        cterm=NONE ctermfg=NONE ctermbg=NONE gui=bold guifg=#ffdd33 guibg=NONE
 endif
 
 if exists("nvim")
